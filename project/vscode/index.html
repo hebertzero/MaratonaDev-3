@@ -1,0 +1,107 @@
+<!--doctype define a versão do html-->
+<!DOCTYPE html>
+<!--fazer comentarios que não aparecem na tela do cliente-->
+<!-- HTML
+ HYPERTEXT: texto que contem links para outros documentos.
+ MARKUP: texto contera marcações <tags>  
+LANGUAGE: para me comunicar de certa maneira. Sintace específica para escrita.
+
+-->
+<hmtl>
+
+    <!-- parte da cabeca do documento (são configurações da minha pagina) -->
+
+    <head>
+        <!-- titulo usado na pagina -->
+        <title>
+            Doação de sangue
+        </title>
+
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+        
+
+    </head>
+    <!-- Aqui vem todo o counteudo visivel para o usuario, dentro da pagina-->
+
+    <body>
+        <!-- 4 novas tags-->
+        <!--header e a cabeca da aplicação-->
+        <!--main e a parte q vai ficar no meio-->
+        <!--footer e a parte q vai ficar em baixo-->
+        <header>
+
+            <!-- h1 e uma marcação (markup)-->
+            <h1> A sua doação importa </h1>
+            <h2> DOE</h2>
+            <!-- p - significa paragrafo-->
+            <p>Até 3 vidas com 1 doação</p>
+            <p> Mais de 38k doeções são necessárias todos os dias</p>
+            <P>Apenas 1,9% da população brasileira, doa sangue.</P>
+
+            <!-- button para simular click-->
+            <button>Quero ajudar</button>
+
+
+        </header>
+
+        <!-- output -saida de texto -->
+        <!-- seção de formulario-->
+        <section class="form">
+            <h2>Entre na lista de doadores</h2>
+            <!--formulario de ação-->
+            <form action="/">
+                <!--input - entrada de texto -->
+                <input type="text" name="name" placeholder="Nome completo">
+                <input type="text" name="Email" placeholder="Email">
+                <input type="text" name="Blood" placeholder="Tipo sanguíneo">
+                <button>Quero ajudar</button>
+            </form>
+        </section>
+
+
+        <main>
+            <h2> Últimos doadores</h2>
+            <!--section e uma seção de formulario-->
+            <section class="donors">
+                <!--div seria uma caixa (conteudo generico)-->
+                <div class="donor">
+                    <div class="blood">AB+</div>
+                    <p>Saber Alter</p>
+
+                </div>
+
+
+                <!--div seria uma caixa (conteudo generico)-->
+                <div class="donor">
+                    <div class="blood">O+</div>
+                    <p>Raider</p>
+
+                </div>
+
+
+                <!--div seria uma caixa (conteudo generico)-->
+                <div class="donor">
+                    <div class="blood">A-</div>
+                    <p>Lancer</p>
+
+                </div>
+
+
+                <!--div seria uma caixa (conteudo generico)-->
+                <div class="donor">
+                    <div class="blood">O-</div>
+                    <p>Acher Dark</p>
+
+                </div>
+
+            </section>
+        </main>
+
+
+        <footer>
+            Com amor Rocketseat
+
+        </footer>
+    </body>
+</hmtl>

@@ -1,0 +1,133 @@
+/*
+CASCADING- CASCATA
+STYLESHEET- FOLHA DE ESTILO
+*/
+
+/*GLOBAL*/
+
+*{
+    /*corrigindo comportamento padrão css*/
+    /*mantem a largura dentro do 100%*/
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+
+    height: 100vh;
+    
+    /*fonte*/
+
+    font-family: 'Roboto', sans-serif;
+
+    /*fundo da aplicação*/
+    
+    background-color: #f9f9f9;
+}
+
+/*TITULOS*/
+header h1, main h2 {
+    margin-bottom: 70px;
+}
+
+.form h2 {
+    text-align: right;
+    color: #ffffffee;
+}
+
+/*ESTRUTURA*/
+/* alinhamentos, espaçamentos, larguras e alturas */
+
+header, main, footer {
+    /*ALINHAMENTO DE TEXTO*/
+    text-align: center;
+
+}
+
+main .donors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+section.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 45px;
+    align-items: center;
+
+    background-color: #ff4f4f;
+
+    padding: 16px 64px;
+
+    
+    
+
+
+}
+form input,
+form button {
+     
+    /*largura*/
+    width: 100%;
+    
+    /*espacamentos*/
+    margin-bottom: 4px;
+
+
+
+    /*preenchimento*/
+    padding: 8px 16px;
+   
+    /*bordas*/
+   border-radius: 4px;
+   border: 1px red solid;
+
+
+}
+
+header, .form, main {
+    /*espaçamentos com margin */
+    margin-bottom: 70px;
+
+    /* limites dos elementos na página*/
+    width: 90%;
+    max-width: 500px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*HEADER*/
+header button{
+    margin-top: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+
+    background-color: #ff4f4f;
+    color: white;
+
+    font-weight: bold;
+
+}
+
+
+
+
+footer {
+    margin-top: auto;
+
+    padding: 16px;
+
+
+    border: 1px solid #eeeeee;
+
+}
+
